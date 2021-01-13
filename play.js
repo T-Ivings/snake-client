@@ -9,3 +9,6 @@ console.log('Connecting ...');
  */
 connect();
 setupInput();
+
+let connectObj = connect()
+setupInput(connectObj);
